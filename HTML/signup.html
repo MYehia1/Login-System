@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="form_area">
+        <p class="title">SIGN UP</p>
+
+        <div class="form_group">
+          <label class="sub_title" for="name">Name</label>
+          <input
+            placeholder="Enter your full name"
+            id="signUpName"
+            class="form_style form-control bg-white text-black"
+            type="text"
+          />
+        </div>
+        <div class="form_group">
+          <label class="sub_title" for="email"
+            >Email
+            <address></address
+          ></label>
+          <input
+            placeholder="Enter your email"
+            id="signUpEmail"
+            class="form_style form-control bg-white text-black"
+            type="email"
+          />
+        </div>
+        <div class="form_group">
+          <label class="sub_title" for="password">Password</label>
+          <input
+            placeholder="Enter your password"
+            id="signUpPassword"
+            class="form_style form-control bg-white text-black"
+            type="password"
+          />
+        </div>
+        <span class="userFound d-none mt-3 mx-auto"
+          >Email address already exist</span
+        >
+        <span class="text-danger failed text-center mt-4 d-none"
+          >All inputs are required</span
+        >
+        <div>
+          <button class="btn" id="signUpBtn">SIGN UP</button>
+          <p>
+            Have an Account?
+            <a class="link signInAnchor" href="../index.html">Login Here!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/signup.js"></script>
+  </body>
+</html>
